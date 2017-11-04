@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo公司</title>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<!-- 引入 jQuery 的 3.2.1  -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" src="../ js/index.js"></script>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- 頂部 -->
+<div>
+    <div class="header">
+        <div class="banner">
+            <img src="../images/logo.png">
+            <span><a href="#">首頁</a></span>
+            <span><a href="#">產品介紹</a></span>
+            <span><a href="#">主要客戶</a></span>
+            <span><a href="#">關於我們</a></span>
+            <span><a href="#">與我聯絡</a></span>
+        </div>
+            <a href="#" id="loginLink">登入</a>
+            <a href="#" id="regeLink">註冊</a>
+    </div>
+</div>
+<!-- 輪播 -->
+<div class="swipe">
+    <div class="nav">
+        <div class="item">
+            <p class="title">✓ 紗品類</p>
+            <span>Cotton</span>
+            <span> / Polyester</span><br>
+            <span>其他纖維</span>
+        </div>
+        <div class="item">
+            <p class="title">✓ 布種類</p>
+            <span>單面布 / </span>
+            <span>雙面布 / </span>
+            <span>Pique布 / </span><br>
+            <span>提花布 / </span>
+            <span>組織布 / </span> 
+            <span>刷毛布</span>
+        </div>
+        <div class="item">
+            <p class="title">✓ 功能類</p>
+            <span>吸濕排汗 / </span>
+            <span>抗菌防臭 / </span><br>
+            <span>抗紫外線 / </span>
+            <span>其他各項功能</span>
+        </div>
+        <div class="item">
+            <p class="title">✓ 成衣類</p>
+            <span>男裝 POLO / </span>
+            <span>女裝 POLO / </span><br>
+            <span>男裝 T-Shirt / </span>
+            <span>女裝 T-Shirt</span>
+        </div>
+    </div>
+    <div class="ppt first"><img src="../images/golf.jpg"></div>
+</div>
+<!-- 頁腳 -->
+<div class="footer">
+    <div class="site">
+        <span><a href="#">關於我們</a></span>
+        <span><a href="#">人才招聘</a></span>
+        <span><a href="#">聯繫我們</a></a></span>
+        <span><a href="#">意見反饋</a></a></span>
+        <span><a href="#">友情連結</a></a></span>
+    </div>
+    <div class="author">
+        <p>Demo Company Ltd.</p>
+        <h4>8F,No.123 Some Dist., New Taipei City, Taiwan</h4>
+    </div>
+</div>
+
+<!-- 彈出(遮蓋) -->
+<div id="layer-mask" class="layer-mask"></div>
+<!-- 彈出(視窗) -->
+<div id="layer-pop" class="layer-pop">
+    <div id="layer-close" class="layer-close">❌</div>
+    <div id="layer-content" class="layer-content">
+ 
+    </div>
+</div>
+
+<div id="loginHtml" style="display:none">
+    <div class="login">
+        <h4 class="title">登 錄</h4>
+
+        <div class="item">
+            <label>帳號</label>
+            <input id="username" class="input" name="username" type="text">
+            <p class="error-msg"></p>
+        </div>
+
+        <div class="item">
+            <label>密碼</label>
+            <input id="password" class="input" name="password" type="text">
+        </div>
+
+        <div class="item">
+            <label>&nbsp;</label>
+            <button id="loginSubmitBtn" type="submit" class="submit" value="填寫好了"></button>
+        </div>
+    </div>
+</div>
+
+ 
+</script>
+</body>
+</html>

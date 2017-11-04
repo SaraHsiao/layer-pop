@@ -1,0 +1,47 @@
+@charset "utf8";
+
+* {padding: 0px;margin: 0px};
+body { text-align: center; font: 14px/1.5 "微软雅黑",Verdana,Tahoma,Arial,sans-serif,"宋体"; line-height: 30px}
+
+/* 頂部樣式 */
+.header {height: 80px; line-height: 80px;text-align: right;margin: 0 20px; overflow: hidden;}
+.header .banner {float: left;}
+.header .banner img {width: 150px; height: 90px; vertical-align: middle;margin-right: 40px}
+.header .banner span { font-size: 18px; margin: 0 15px; line-height: 80px}
+.header a { text-decoration: none;color: #666; margin-left: 20px;}
+/* 輪播樣式 */
+.swipe { width: 1200px; height: 450px;margin: 6px auto;overflow: hidden}
+.nav { width: 280px; height: 450px;position: absolute;background-color: #000;color: #fff;
+    filter:alpha(opacity=50);  /*支持 IE 瀏覽器*/
+	-moz-opacity:0.50; /*支持 FireFox 瀏覽器*/
+    opacity:0.50;  /*支持 Chrome, Opera, Safari 等瀏覽器*/}
+.nav .item { margin: 10px 10px; padding: 10px; border-bottom: 1px solid #666; text-align: left; height: 78px; }
+.item .title { font-size: 20px;padding: 5px 0px;}
+.first img {width: 100%; height: 100%}
+.nav .item:hover { background-color:grey; cursor: pointer}
+
+/* 頁腳樣式 */
+.footer { width:1200px; margin: 20px auto; padding: 20px 0px; border-top: 1px solid #ddd; background-color: #eee}
+.footer .site { line-height: 30px; text-align: center}
+.site span { margin: 0px 20px; color: #888}
+.site a { text-decoration: none;}
+.footer .author p { font-size: 16px; color: lightgrey; text-align: center}
+.footer .author h4 {font-size: 13px; color: lightgrey; text-align: center}
+
+/* 彈出樣式 */
+.layer-mask { z-index: 0; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: #000; opacity: 0.5;display: none}
+
+.layer-pop { z-index: 1; position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto; width:400px; height: 300px; background-color: #fff;display: none}
+
+.layer-close { float: right; width: 24px; height: 24px; line-height: 24px; border-radius: 50%; margin-top: -12px; margin-right: -12px; text-align: center; border: 3px solid #fff; background-color: #eee;}
+
+.layer-close:hover { cursor: pointer; background-color: #ccc; color: #fff}
+
+/* 登入樣式 */
+.login h4 { font-size: 20px; line-height: 50px}
+.login label { margin-right: 5px; color: #888; display: inline-block;width:60px; text-align: right}
+.login .input { border: 1px solid #ccc; border-radius: 3px; padding: 10px 5px; width: 250px}
+
+
+
+/* 註冊樣式 */

@@ -87,7 +87,8 @@
     </div>
 </div>
 
-<div id="loginHtml" style="display:none">
+<!-- 登錄窗體 -->
+<div id="loginHtml" style="display:none;">
     <div class="login">
         <h4 class="title">登 錄</h4>
 
@@ -99,17 +100,43 @@
 
         <div class="item">
             <label>密碼</label>
-            <input id="password" class="input" name="password" type="text">
+            <input id="password" class="input" name="password" type="password">
         </div>
 
         <div class="item">
             <label>&nbsp;</label>
-            <button id="loginSubmitBtn" type="submit" class="submit" value="填寫好了"></button>
+            <input id="loginSubmitBtn" type="submit" class="submit" value="填寫好了"></input>
         </div>
     </div>
 </div>
 
- 
+<!-- 註冊窗體 -->
+<div id="regeHtml" style="display:none;">
+    <div class="login">
+        <h4 class="title">註 冊</h4>
+
+        <div class="item">
+            <label>帳號</label>
+            <input id="username" class="input" name="username" type="text">
+            <p class="error-msg"></p>
+        </div>
+
+        <div class="item">
+            <label>密碼</label>
+            <input id="password" class="input" name="password" type="password">
+        </div>
+        <div class="item">
+            <label>重覆密碼</label>
+            <input id="repassword" class="input" name="repassword" type="password">
+        </div>
+
+        <div class="item">
+            <label>&nbsp;</label>
+            <input id="regeSubmitBtn" type="submit" class="submit" value="填寫好了">
+        </div>
+    </div>
+</div>
+
 </script>
 </body>
 </html>

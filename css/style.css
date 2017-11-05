@@ -38,10 +38,13 @@ body { text-align: center; font: 14px/1.5 "微软雅黑",Verdana,Tahoma,Arial,sa
 .layer-close:hover { cursor: pointer; background-color: #ccc; color: #fff}
 
 /* 登入樣式 */
-.login h4 { font-size: 20px; line-height: 50px}
-.login label { margin-right: 5px; color: #888; display: inline-block;width:60px; text-align: right}
-.login .input { border: 1px solid #ccc; border-radius: 3px; padding: 10px 5px; width: 250px}
-
+.login {}
+.login h4 { font-size: 20px;line-height: 50px; text-align: center}
+.login label { margin-right: 5px; color: #888;display: inline-block; width:80px;text-align: right}
+.login input { border: 1px solid #ccc; border-radius: 6px;padding: 10px 5px; width: 250px; margin: auto 40px}
+.login .item { margin: 20px auto}
+.login .submit { background-color: red;border:1px solid #e40; border-radius: 5px; padding: 10px 5px; width: 250px; color: #fff}
+.login .error-msg { color: #e40; text-align: center}
 
 
 /* 註冊樣式 */
